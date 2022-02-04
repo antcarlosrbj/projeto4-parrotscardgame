@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEF9BF;
+}
+header {
+    font-size: 56px;
+    font-weight: 700;
+    color: #75B79E;
+    margin: 40px auto 40px auto;
+    text-align: center;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main {
+    padding: 10px 120px 0 120px;
+    height: 100px;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carta {
+    width: 117px;
+    height: 146px;
+    border-radius: 5px;
+    background-color: #A7E9AF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 17px;
+}
+.carta img {
+    width: 100px;
+    height: 100px;
+}
